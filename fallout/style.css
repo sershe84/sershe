@@ -1,0 +1,49 @@
+﻿
+h1
+{
+	font: bold xx-large Verdana,arial;
+}
+
+h2
+{
+	clear: left;
+	font: bold large Verdana,arial;
+	margin: 0;
+	padding: 0.67em 0 0.33em 0;
+}
+
+p, li
+{
+	font: normal normal Verdana,arial; 
+}
+
+a img
+{
+	border: 0;
+}
+
+div.img
+{
+	float: left;
+	border: 1px solid black;
+	margin: 5px 0 5px 10px;
+	width: 240px;
+	height: 200px;
+	text-align: center;
+	padding: 8px;
+}
+
+div.unsigned div.img
+{
+    height: 150px;
+}
+
+div.img p
+{
+	margin: 0; padding: 0;
+	height: 50px;
+	font-size: small; 
+	overflow: hidden;
+}
+
+

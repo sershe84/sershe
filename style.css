@@ -1,0 +1,61 @@
+body
+{
+	margin: 0; padding: 0;
+	font: normal 12pt/18pt Verdana,Arial,sans-serif;
+	
+}
+ul
+{
+	margin: 18pt 0 18pt 0;
+	padding: 0;
+	list-style-type: square;
+}
+ul ul
+{
+	list-style-type: disc;
+}
+
+h1, h3
+{
+	padding: 0;
+	text-indent: 36pt;
+}
+h1
+{
+	margin: 18pt 0 18pt 0;
+	font: bold 24pt/36pt Verdana,Arial,sans-serif;
+}
+h3
+{
+	margin: 18pt 0 0 0;
+	font: bold 18pt/27pt Verdana,Arial,sans-serif;
+}
+p, li
+{
+	margin: 0;
+	padding: 0;
+	text-align: justify;
+	text-indent: 36pt;
+	
+}
+
+p
+{
+	margin-top: 18pt;
+}
+
+li
+{
+	list-style-position: inside;
+	margin-left: 18pt;
+}
+
+#everything, #rueverything
+{
+	width: 740px;
+	padding: 0 36pt 36pt 0;
+	margin: 0  0 0 18pt;
+	border: 2px dashed #999999;
+	border-left: 0;
+	border-top: 1px solid white; /* ffox border bug fix */
+}
